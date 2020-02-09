@@ -1,24 +1,19 @@
-# yii2-simple-cms
+# yii2-quiz
 
 ## Installation
 
-composer require --prefer-dist soless/yii2-simple-cms "*"
+composer require --prefer-dist soless/yii2-quiz "*"
 
-php yii migrate/up --migrationPath=@vendor/soless/yii2-simple-cms/migrations
+php yii migrate/up --migrationPath=@vendor/soless/yii2-quiz/migrations
 
 add to config:
 ```
     'modules' => [
-        'cms' => [
-            'class' => '\soless\cms\Module',
+        'quiz' => [
+            'class' => '\soless\quiz\Module',
         ]
     ],
 ```
 
 ## Available CRUD controllers:
 
-cms/cms-article
-
-cms/cms-category
-
-cms/cms-tag
